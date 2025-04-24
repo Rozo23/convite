@@ -1,0 +1,41 @@
+body {
+    background-image: url("plano_de_fundo2.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+    padding-bottom: 320px; /* Adiciona espaço no final para o iframe */
+    height: auto; /* Permite que o body cresça com o conteúdo */
+    width: 100%; 
+    position: relative; 
+    background-color: #696969;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #fff8cb; 
+    margin-top: 10%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    font-family: 'Lobster', cursive;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100%; /* Faz o contêiner ocupar toda a altura disponível */
+}
+
+h3{
+    position: absolute;
+    z-index: 2;
+    left: 5% 5%; /* Centraliza o texto */
+    top: 300px;
+    color: #fff8cb;
+    margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    text-align: center;
+}

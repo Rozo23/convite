@@ -1,0 +1,105 @@
+body {
+    background-image: url("plano_de_fundo2.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+    padding-bottom: 320px; /* Adiciona espaço no final para o iframe */
+    height: auto; /* Permite que o body cresça com o conteúdo */
+    width: 100%; 
+    position: relative; 
+    background-color: #696969;
+    background-attachment: fixed;
+}
+
+.foreground img {
+    position: absolute; 
+    z-index: 2;
+    top: 50px; 
+    left: 5px; 
+    width: 50vh; 
+    height: 50%;
+    z-index: 2; 
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #fff8cb; 
+    margin-top: 10%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    font-family: 'Lobster', cursive;
+}
+h2{
+    position: absolute;
+    z-index: 2;
+    left: 10%; /* Centraliza o texto */
+    top: 60%;
+    color: #fff8cb;
+    margin-top: 15px; /* Espaçamento entre a imagem e o texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+form{
+    position: absolute;
+    z-index: 2;
+    left: 5%; 
+    top: 90%;
+    color: #fff8cb;
+    margin-top: 20px; /* Espaçamento entre o texto e o formulário */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+    font-family: 'Lobster', cursive;
+    gap:20px;
+    padding: 10px;
+}
+input{ 
+    background-color: #fff8cb;
+    border-radius: 10px 10px 10px 10px;
+    width: 300px;
+    height: 50px;
+}
+button{
+    background-color: #c4be99;
+    border-radius: 10px 10px 10px 10px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
+button:hover{
+    background-color: #fff8cb;
+    color: #c4be99;
+}
+a{
+    color: #fff8cb;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-style: italic, bold;
+}
+h3{
+    position: absolute;
+    z-index: 2;
+    left: 10%; /* Centraliza o texto */
+    top: 100%;
+    color: #fff8cb;
+    margin-top: 15px; /* Espaçamento entre a imagem e o texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+iframe {
+    position: relative; /* Remove o posicionamento absoluto */
+    top: 850px;
+    z-index: 1; /* Certifica-se de que o iframe não sobrepõe outros elementos */
+    display: block; /* Garante que o iframe ocupe uma linha inteira */
+    margin: 20px auto; /* Centraliza o iframe horizontalmente e adiciona espaçamento */
+    width: 90%; /* Define a largura do iframe como 90% da tela */
+    max-width: 800px; /* Define uma largura máxima para o iframe */
+    height: 400px; /* Define a altura do iframe */
+    border: none; /* Remove a borda do iframe */
+}
+
+
+
+

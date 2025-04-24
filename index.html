@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="estilopg1.css">
+        <title>Save the Date</title>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script>
+            (function() {
+                emailjs.init("zwhVyrpAuxTfw4qdZ"); // Substitua pela sua chave pública do EmailJS
+            })();
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Save the Date</h1><br>
+                <div class="foreground">
+                    <img src="lua_pequeno.png" alt="Lua Pequeno">
+                </div>
+                <h2>Venha conosco comemorar a chegada do nosso pequeno príncipe.<br>
+                    Já deixe salvo em sua agenda no dia 25/05.<br>
+                Local do evento: 
+                    R. Jorge Beretta, 559 - Parque Erasmo Assunção, Santo André<br>
+                </h2> 
+                <div>
+                    <iframe
+                    src="https://maps.app.goo.gl/bFxqDkaAnThc16Pv9"
+                    width="300"
+                    height="300"    
+                    style="border:0;"
+                    allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <form id="confirmationForm">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                    <button type="submit" id="sendEmailBtn">Confirmar Presença</button>
+                </form>
+                
+            </div>
+            <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+            <script type="text/javascript">
+              (function(){
+                emailjs.init("zwhVyrpAuxTfw4qdZ"); // Substitua pelo seu EmailJS public key
+              })();
+            </script>
+        </div>
+        <script src="convite.js"></script>
+    </body>
+</html>
