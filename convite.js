@@ -26,6 +26,7 @@ document.getElementById("sendEmailBtn").addEventListener("click", function() {
             // Redireciona para a nova página imediatamente após o envio do e-mail
             window.location.href = "pagina_de_confirmaçao_index.html"; // Substitua pela URL da nova página
         })
+        
         .catch(function(error) {
             console.error("Erro ao enviar o e-mail:", error);
             alert("Erro ao enviar o e-mail. Tente novamente.");
