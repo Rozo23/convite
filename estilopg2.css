@@ -17,7 +17,7 @@ h1 {
     color: #fff8cb; 
     margin-top: 10%;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
 }
 .container {
     display: flex;
@@ -35,7 +35,7 @@ h3{
     color: #fff8cb;
     margin-top: 10px; /* Espaçamento entre a imagem e o texto */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 20px;
     text-align: center;
 }

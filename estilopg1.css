@@ -27,7 +27,7 @@ h1 {
     color: #fff8cb; 
     margin-top: 10%;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
 }
 h2{
     position: absolute;
@@ -37,7 +37,7 @@ h2{
     color: #fff8cb;
     margin-top: 15px; /* Espaçamento entre a imagem e o texto */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 20px;
 }
 form{
@@ -48,7 +48,7 @@ form{
     color: #fff8cb;
     margin-top: 20px; /* Espaçamento entre o texto e o formulário */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     gap:20px;
     padding: 10px;
 }
@@ -65,7 +65,7 @@ button{
     height: 50px;
     border: none;
     cursor: pointer;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
 }
 button:hover{
     background-color: #fff8cb;
@@ -74,7 +74,7 @@ button:hover{
 a{
     color: #fff8cb;
     text-decoration: none;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-style: italic, bold;
 }
 h3{
@@ -85,7 +85,7 @@ h3{
     color: #fff8cb;
     margin-top: 15px; /* Espaçamento entre a imagem e o texto */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
     font-size: 20px;
 }
 iframe {
