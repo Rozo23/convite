@@ -24,7 +24,7 @@ document.getElementById("sendEmailBtn").addEventListener("click", function() {
     emailjs.send("service_bo4k0s5", "template_bad8mw8", templateParams)
         .then(function(response) {
             // Redireciona para a nova página imediatamente após o envio do e-mail
-            window.location.href = "pagina de confirmaçao.html"; // Substitua pela URL da nova página
+            window.location.href = "pagina_de_confirmaçao_index.html"; // Substitua pela URL da nova página
         })
         .catch(function(error) {
             console.error("Erro ao enviar o e-mail:", error);
