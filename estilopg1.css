@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat; 
     background-position: center; 
     margin: 0;
-    padding-bottom: 320px; /* Adiciona espaço no final para o iframe */
+    padding-bottom: 200px; /* Adiciona espaço no final para o iframe */
     height: auto; /* Permite que o body cresça com o conteúdo */
     width: 100%; 
     position: relative; 
