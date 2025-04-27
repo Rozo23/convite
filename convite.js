@@ -1,4 +1,4 @@
-// Certifique-se de que o evento seja registrado apenas uma vez
+// Evento para o botão "Confirmar Presença"
 document.getElementById("sendEmailBtn").addEventListener("click", function() {
     // Obtém o valor do nome do campo de entrada
     const name = document.getElementById("name").value;

@@ -2,9 +2,10 @@ body {
     background-image: url("plano_de_fundo2.png");
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: center; 
+    background-position: center;
+    background-attachment: fixed;; 
     margin: 0;
-    padding-bottom: 200px; /* Adiciona espaço no final para o iframe */
+    padding-bottom: 320px; /* Adiciona espaço no final para o iframe */
     height: auto; /* Permite que o body cresça com o conteúdo */
     width: 100%; 
     position: relative; 
@@ -33,7 +34,7 @@ h2{
     position: absolute;
     z-index: 2;
     left: 5%; /* Centraliza o texto */
-    top: 60%;
+    top: 60%; 
     color: #fff8cb;
     margin-top: 15px; /* Espaçamento entre a imagem e o texto */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
@@ -44,7 +45,7 @@ form{
     position: absolute;
     z-index: 2;
     left: 5%; 
-    top: 90%;
+    top: 110%;
     color: #fff8cb;
     margin-top: 20px; /* Espaçamento entre o texto e o formulário */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
@@ -61,7 +62,7 @@ input{
 button{
     background-color: #c4be99;
     border-radius: 10px 10px 10px 10px;
-    width: 305px;
+    width: 300px;
     height: 50px;
     border: none;
     cursor: pointer;
