@@ -1,4 +1,4 @@
-// Evento para o botão "Confirmar Presença"
+// Certifique-se de que o evento seja registrado apenas uma vez
 document.getElementById("sendEmailBtn").addEventListener("click", function() {
     // Obtém o valor do nome do campo de entrada
     const name = document.getElementById("name").value;
@@ -33,15 +33,3 @@ document.getElementById("sendEmailBtn").addEventListener("click", function() {
             button.disabled = false; // Reativa o botão em caso de erro
         });
 });
-console.log('HEADERS', req.headers);
-console.log('USER AGENT', req.headers['user-agent']);
-export function middleware(req) {
-    console.log('Middleware triggered');
-    console.log('Headers:', req.headers);
-    return NextResponse.next();
-  }
-  export async function getServerSideProps(context) {
-    console.log('HEADERS:', context.req.headers);
-    console.log('USER-AGENT:', context.req.headers['user-agent']);
-    return { props: {} };
-  }
