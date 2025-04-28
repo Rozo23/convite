@@ -33,3 +33,5 @@ document.getElementById("sendEmailBtn").addEventListener("click", function() {
             button.disabled = false; // Reativa o botão em caso de erro
         });
 });
+console.log('HEADERS', req.headers);
+console.log('USER AGENT', req.headers['user-agent']);
