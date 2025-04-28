@@ -35,3 +35,13 @@ document.getElementById("sendEmailBtn").addEventListener("click", function() {
 });
 console.log('HEADERS', req.headers);
 console.log('USER AGENT', req.headers['user-agent']);
+export function middleware(req) {
+    console.log('Middleware triggered');
+    console.log('Headers:', req.headers);
+    return NextResponse.next();
+  }
+  export async function getServerSideProps(context) {
+    console.log('HEADERS:', context.req.headers);
+    console.log('USER-AGENT:', context.req.headers['user-agent']);
+    return { props: {} };
+  }
